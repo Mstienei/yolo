@@ -19,5 +19,8 @@ COPY package*.json ./
 # Expose port for the process to listen to 
 EXPOSE 5000
 
+# Install npm package
+RUN npm install
+
 # Set command for CMD
 CMD ["node", "server.js"]
