@@ -9,7 +9,7 @@ FROM node:14.11.0-alpine3.10
 LABEL maintainer="Maureen Sitienei<mstienei@gmail.com>"
 
 # Create Working directory
-WORKDIR /opt/backend
+WORKDIR /opt/yolo/backend
 
 # Copy the backend directory from the Docker host to the filesystem of the new image(working directory)
 COPY . .
