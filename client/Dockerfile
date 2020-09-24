@@ -22,6 +22,11 @@ EXPOSE 3000
 # Install npm package
 RUN npm install
 
+RUN npm run build
+
+RUN npm install -g serve
+
 # Run app
 # Set command for CMD
-CMD ["npm", "start"]
+#CMD ["npm", "start", "serve"]
+CMD ["serve", "-s", "build", "-l", "3000" ]
