@@ -23,4 +23,4 @@ EXPOSE 5000
 RUN npm install
 
 # Set command for CMD
-CMD ["node", "server.js"]
+CMD ["npm", "start"]
