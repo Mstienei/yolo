@@ -1,4 +1,4 @@
-
+![Yolomy.](yolomy_homepage.png "Yolomy.Our clothing, your confort")
 ## Base image 
 14.11.0-alpine3.10 - Alpine Linux is much smaller, and thus leads to much slimmer images in general.
 
