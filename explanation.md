@@ -29,5 +29,5 @@ docker-compose build
 docker-compose up
 
 ## Docker image tag
-1. [backend] (docker.io/msitienei/yolo_backend)
-1. [client] (docker.io/msitienei/yolo_client)
+1. [backend](docker.io/msitienei/yolo_backend)
+1. [client](docker.io/msitienei/yolo_client)
