@@ -24,5 +24,10 @@ All containers are connected to yolo_network bridge network
 Mongo container has an attached volume called  yolodata
 
 ## Git workflow
-## Successful running of the applications and if not, debugging measures applied
+## Successful running of the applications
+docker-compose build
+docker-compose up
+
 ## Docker image tag
+1. [backend] (docker.io/msitienei/yolo_backend)
+1. [client] (docker.io/msitienei/yolo_client)
